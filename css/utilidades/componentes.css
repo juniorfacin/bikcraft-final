@@ -19,11 +19,10 @@
   max-width: max-content;
   border: none;
   cursor: pointer;
-
 }
 
 .botao:hover {
-  background: linear-gradient(#ffb60d, #e59137);
+  background: linear-gradient(#ffb60d, #e59317);
 }
 
 .botao.secundario {
@@ -87,6 +86,10 @@
   background-color: var(--cor-11);
 }
 
+.titulo {
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
+}
+
 .titulo p {
   margin-bottom: 4px;
 }
@@ -101,6 +104,5 @@
     font-size: 1rem;
     text-transform: lowercase;
     font-weight: 400;
-    ;
   }
 }
